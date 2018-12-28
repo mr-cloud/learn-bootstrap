@@ -30,7 +30,7 @@ body {
 
 .navbar-dark {
   background-color: #512DA8;
-  /*vs. background?*/ }
+  /*vs. background is shorthand for background-*. and here just specify the color.*/ }
 
 .tab-content {
   border-left: 1px solid #ddd;
