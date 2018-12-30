@@ -5,12 +5,12 @@ $background-pale: #D1C4E9;
 
 // Height variables
 $carousel-item-height: 300px;
-
+// multiple attributes with parameters
 @mixin zero-margin($pad-up-dn, $pad-left-right) {
 	margin:0px auto;
 	padding: $pad-up-dn $pad-left-right;
 }
-
+// include a mixin
 .row-header{
     @include zero-margin(0px,0px);
 }
@@ -56,7 +56,7 @@ body{
 
 .carousel {
     background:$background-dark;
-
+// embending
     .carousel-item {
         height: $carousel-item-height;
         img {

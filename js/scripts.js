@@ -9,7 +9,7 @@ $(document).ready(function() {
 	$('#mycarousel').carousel({interval: 2000});
 	$('#carouselButton').click(function () {
 		if ($('#carouselButton').children('span').hasClass('fa-pause')) {
-			$('#mycarousel').carousel('pause');
+			$('#mycarousel').carousel('pause'); // cannot stop it in some mobile device
 			$('#carouselButton').children('span').removeClass('fa-pause');
 			$('#carouselButton').children('span').addClass('fa-play');
 			console.log("paused carousel.")
